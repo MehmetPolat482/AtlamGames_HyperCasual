@@ -12,4 +12,4 @@
 
 
 
-![image](C:\Users\user\Downloads\PxLbzK_745fc3726eb274835da24df7e8161abf_00-00-00_00-00-08_1.gif)
+![image](https://github.com/MehmetPolat482/AtlamGames_HyperCasual/blob/8bd0e067c37ac64c265c9afaa66fb57a12fe278f/PathRunner/img/PxLbzK_745fc3726eb274835da24df7e8161abf_00-00-00_00-00-08_1.gif)
