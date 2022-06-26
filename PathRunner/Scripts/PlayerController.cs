@@ -112,17 +112,17 @@ public class PlayerController : MonoBehaviour
 		// Burada Her Levelin Ne Kadar Sürede Sürmesi Belirtilmesi
 		
 	private void LevelScene(){
-		if(score == 5){
+		if(score == 30){
 			SceneManager.LoadScene("Level-2");
-		}else if(score == 30){
-			SceneManager.LoadScene("Level-3");
-		}else if(score == 45){
-			SceneManager.LoadScene("Level-4");
 		}else if(score == 60){
+			SceneManager.LoadScene("Level-3");
+		}else if(score == 90){
+			SceneManager.LoadScene("Level-4");
+		}else if(score == 120){
 			SceneManager.LoadScene("Level-5");
-		}else if(score == 75){
+		}else if(score == 150){
 			SceneManager.LoadScene("Final Level");
-		}else if(score == 100){
+		}else if(score == 200){
 			SceneManager.LoadScene("WinScene");
 		}
 		
