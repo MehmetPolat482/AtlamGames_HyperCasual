@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+	//Değişkenler
 	public List<GameObject> targets;
 	private float spawnRate = 2f ;
 	public TextMeshProUGUI scoreText;
@@ -16,8 +17,9 @@ public class GameManager : MonoBehaviour
 	private int score;
 	public Button restartButton;
 	public Button mainMenuButton;
-	
+	public string sceneToLoad ;
 	public bool isGameActive;
+	public int loadScore;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +55,7 @@ public class GameManager : MonoBehaviour
 			
 	}
 	
+	//Skorların Ekrana Yazılması
 	public void UptadeScore(int scoreAdd){
 		score += scoreAdd;
 		 scoreText.text = "Score : " + score.ToString();
@@ -60,14 +63,16 @@ public class GameManager : MonoBehaviour
 		 scoreText.text = "Score : " + score;
 		 
 		WinScene();
+		
+		LevelScene();
 	}
 		
 		
-	
+	//Her başlangıçta skorun sıfırlanması
 	public static void DeleteAll(){
 		PlayerPrefs.DeleteAll();
 	}
-	
+	//GameOver Ekranı 
 	public void GameOver(){
 		
 		restartButton.gameObject.SetActive(true);
@@ -77,8 +82,9 @@ public class GameManager : MonoBehaviour
 		isGameActive = false;
 		yourScoreText.text= scoreText.text + " POINTS";
 	}
+	//Win Ekranı
 	public void WinScene(){
-		if(score > 2000){
+		if(score > 1500){
 			isGameActive=false;
 			restartButton.gameObject.SetActive(true);
 			mainMenuButton.gameObject.SetActive(true);
@@ -86,15 +92,23 @@ public class GameManager : MonoBehaviour
 			yourScoreText.gameObject.SetActive(true);
 			yourScoreText.text= scoreText.text + " POINTS";
 	}
-		
 	}
-	
+	//Belirli Skora Ulaştığında Üst Seviyeye Geçnme
+	public void LevelScene(){
+		
+		if(score > loadScore){
+			
+			SceneManager.LoadScene(sceneToLoad);
+		}
+	}
+	//Oyunu Yeniden Başlatma
 	public void RestartGame(){
 		
-		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		SceneManager.LoadScene("Level-1");
 		DeleteAll();
 
 	}
+	//Ana Menüye Gitme
 	public void MainMenu(){
 		SceneManager.LoadScene("MainMenu");
 	}
