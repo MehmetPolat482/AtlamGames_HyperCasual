@@ -4,13 +4,16 @@
 
 #### NASIL OYNANIR ?
 
-Oyunumuz hedef vurma oyunudur. Oyundaki amacınız alttan gelen hedefleri aşağıya düşmeden önce vurmak ve puan kazanmaktır.
 
-Her belirli puana ulaştıktan sonra seviye atlıyorsunuz.
 
-Her hedefin bir puan sistemi vardır. Aşağıda belirtilmiştir. 
+* Oyunumuz hedef vurma oyunudur. Oyundaki amacınız alttan gelen hedefleri aşağıya düşmeden önce vurmak ve puan kazanmaktır.
 
-Siyah bombayı almak oyunu bitirir. Her oyun bittiğinde skorunuzu görebileceksiniz.
+* Her belirli puana ulaştıktan sonra seviye atlıyorsunuz.
+
+* Oyunumuz bir hedef vurma oyunudur. Oyundaki amacınız alttan gelen hedefleri en kısa sürede vurmak aşağıya düşmeden.
+* Her hedefin bir puan sistemi vardır. Aşağıda belirtilmiştir. 
+
+* Siyah bombayı almak oyunu bitirir. Her oyun bittiğinde skorunuzu görebileceksiniz.
 
 
 
