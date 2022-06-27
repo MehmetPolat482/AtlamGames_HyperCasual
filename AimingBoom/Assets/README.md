@@ -38,5 +38,5 @@
 | SKULLS                | -20 POINTS            |
 | BOMBS                 | 0 POINTS  - GAME OVER |
 
-![](https://github.com/MehmetPolat482/AtlamGames_HyperCasual/blob/b942eff7b90c839ab19e279ba82ee9e39d004ed6/AimingBoom/Assets/img/PxLbzK_f6ea9deb9f32d5317185c5f701431676_00-00-00_00-00-17_1.gif)
+![](https://github.com/MehmetPolat482/AtlamGames_HyperCasual/blob/87f722e19153f3db7828de61727b9e0d2e4f7f2c/AimingBoom/Assets/img/PxLbzK_ad37acf87949aedfe75b13318ca331a0_00-00-00_00-00-12_1.gif)
 
