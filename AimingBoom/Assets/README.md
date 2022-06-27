@@ -4,11 +4,11 @@
 
 #### NASIL OYNANIR ?
 
-Oyunumuz bir hedef vurma oyunudur. Oyundaki amacınız alttan gelen hedefleri en kısa sürede vurmak aşağıya düşmeden.
+* Oyunumuz bir hedef vurma oyunudur. Oyundaki amacınız alttan gelen hedefleri en kısa sürede vurmak aşağıya düşmeden.
 
-Her hedefin bir puan sistemi vardır. Aşağıda belirtilmiştir. 
+* Her hedefin bir puan sistemi vardır. Aşağıda belirtilmiştir. 
 
-Siyah bombayı almak oyunu bitirir. Her oyun bittiğinde skorunuzu görebileceksiniz.
+* Siyah bombayı almak oyunu bitirir. Her oyun bittiğinde skorunuzu görebileceksiniz.
 
 | OBJECTS               | POINT                 |
 | --------------------- | --------------------- |
